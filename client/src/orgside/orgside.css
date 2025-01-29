@@ -1,0 +1,24 @@
+.orgside{
+    height: 100%;
+    width: 300px;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.orgimage{
+    height: 150px;
+    width: 150px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display:flex ;
+}
+
+#orgimg{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}

@@ -1,0 +1,125 @@
+.gatemain{
+    height: 100%;
+    width: 100%;
+   
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.gateform{
+    height: 300px;
+    width: 500px;
+  border: 1px solid white;
+  box-shadow: 0px 0px 5px gray;
+    font-family: arial;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+    border-radius: 3px;
+
+}
+
+input{
+    font-family: arial;
+}
+
+#la{
+    height: 30px;
+    width: 70px;
+   
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 7px;
+}
+
+.f{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#bt{
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: rgb(0, 119, 255);
+    outline: none;
+    border: 0px;
+}
+
+
+.passes{
+    padding: 10px 10px ;
+    width: 500px;
+    
+    ;
+    margin-top: 50px;
+    justify-content: center;
+    align-items:center ;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+}
+
+.pending{
+    background-color:yellow;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 80px;
+    border-radius:10px;
+
+}
+
+.false{
+    
+    background-color: lightcoral;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 80px;
+    border-radius:10px;
+
+
+}
+
+.true{
+  
+    
+        background-color: lightgreen;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        height: 30px;
+        width: 80px;
+        border-radius:10px;
+    
+    
+    
+}
+
+.gatepass{
+    height: 100px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid white;
+    box-shadow: 0px 0px 3px gray;
+}
+
+

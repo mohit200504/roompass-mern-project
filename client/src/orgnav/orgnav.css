@@ -1,0 +1,32 @@
+.orgnav{
+    height: 100px;
+    width: 100%;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: arial;
+border: 1px solid white;
+box-shadow: 0px 0px 4px gray;
+}
+.orgdashnav{
+    height: 100%;
+    width: 50%;
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#orgdashimg
+{
+   margin-left: 10px; 
+   cursor: pointer;
+}
+
+h3{
+    cursor: pointer;
+}

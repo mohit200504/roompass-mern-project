@@ -1,0 +1,42 @@
+.sidebar{
+    height: 100%;
+    width: 20%;
+    border-top: 0px solid white;
+   
+    background-color:lightcoral;
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap:30px
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: white;
+    
+}
+
+#imginsidebar{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+
+}
+
+.details{
+    height: 70px;
+    width: 100%;
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+

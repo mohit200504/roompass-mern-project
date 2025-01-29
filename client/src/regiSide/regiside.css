@@ -1,0 +1,19 @@
+.sidebar{
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+#imageinreg{
+    height: 500px;
+    width: 500px;
+    border-radius: 5px;
+
+}
+h4{
+    color:white;
+}

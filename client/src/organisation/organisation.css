@@ -1,0 +1,76 @@
+.orgmain{
+    height: 100%;
+    width:100% ;
+   align-items: center;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   gap:10px;
+    
+}
+
+
+
+
+
+.form{
+    height: 10%;
+    width: 500px;
+    font-family: arial;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.in{
+    font-family: arial;
+}
+
+.rooms{
+
+    height: 80%;
+    width: 100%;
+    
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   gap:10px;
+   flex-wrap: wrap;
+}
+
+.room{
+    height: 100px;
+    width: 230px;
+    background-color: white;
+    justify-content: center;
+    border: 1px solid white;
+    box-shadow: 0px 0px 3px gray;
+    border-radius: 3px;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+.name{
+    height: 5%;
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.bed{
+    height:90% ;
+    width: 27%;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

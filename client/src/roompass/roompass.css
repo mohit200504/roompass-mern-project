@@ -1,0 +1,48 @@
+.roompass{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+}
+
+.pass{
+    height: 200px;
+    width: 300px;
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 3px;;
+}
+
+.roomdetails{
+    height: 80px;
+    width: 100%;
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+.cancle{
+    height: 30px;
+    width: 160px;
+    background-color: rgb(0, 119, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    border-radius: 3px;;
+}
+
+p{
+    color: white;
+}

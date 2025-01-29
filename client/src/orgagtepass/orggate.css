@@ -1,0 +1,52 @@
+.orgatepass{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.orgpass{
+    height: 150px;
+    width: 300px;
+    background-color:white;
+    box-shadow: 0px 0px 4px gray;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  
+}
+.g{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap:3px;
+    margin-bottom: 20px;
+}
+
+.a{
+    background-color: lightgreen;
+    border: 0px ;
+    outline: none;
+
+}
+
+.d{
+    background-color: lightcoral;
+    border: 0px ;
+    outline: none;
+}

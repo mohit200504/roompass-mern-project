@@ -1,0 +1,40 @@
+.messpass{
+    height: 100%;
+    width: 100%;
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: arial;
+}
+
+.card{
+    height: 200px;
+    width: 410px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px gray;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.photo{
+    height: 130px;
+    width: 130px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.userdetails{
+    height: 140px;
+    width: 250px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
