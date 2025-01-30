@@ -38,7 +38,7 @@ function Organisation(){
     useEffect(()=>{
 
         async function getorg(){
-            let res=await axios.post("http://localhost:4000/orgbyid",{id},{headers:{
+            let res=await axios.post("https://roompass-mern-project-server-by-mohit.onrender.com/orgbyid",{id},{headers:{
                 "x-token":usertoken
             }});
 
@@ -86,7 +86,7 @@ function Organisation(){
 
         //console.log(orgid,orgname,orgaddress,orgmobile,from,to,roomid,bedid,username,usermobile,useraddress)
 
-        let res =await axios.post("http://localhost:4000/bookbed",{orgid,orgname,orgaddress,orgmobile,from,to,
+        let res =await axios.post("https://roompass-mern-project-server-by-mohit.onrender.com/bookbed",{orgid,orgname,orgaddress,orgmobile,from,to,
         roomid,bedid,username,usermobile,useraddress,bedno,roomno},
          {
             headers:{
