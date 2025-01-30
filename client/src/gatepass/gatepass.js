@@ -36,7 +36,7 @@ function Gatepass(){
 
         async function getpass(){
 
-            let gate=await axios.get("http://localhost:4000/getgatepassforuser",{headers:{
+            let gate=await axios.get("https://roompass-mern-project-server-by-mohit.onrender.com/getgatepassforuser",{headers:{
             "x-token":usertoken
            }});
 
@@ -60,7 +60,7 @@ getpass()
 
        //console.log(userid,organisationid,username,reason,from,to)
 
-       let res=await axios.post("http://localhost:4000/applygatepass",{userid,organisationid,username,reason,from,to,organisationame},{headers:{
+       let res=await axios.post("https://roompass-mern-project-server-by-mohit.onrender.com/applygatepass",{userid,organisationid,username,reason,from,to,organisationame},{headers:{
         "x-token":usertoken
        }});
 
