@@ -19,7 +19,7 @@ import Gatepassorg from './orgagtepass/orggate';
    function App(){
 
     return (
-      <Router basename="/my-app">
+      <Router >
         <Routes>
           <Route path="/userregister" element={<Userregi/>}/>
           <Route path="/userlogin" element={<Userlogin/>}/>
