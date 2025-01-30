@@ -37,12 +37,12 @@ function UserDash(){
     useEffect(()=>{
       async function getuser(){
             if(usertoken){
-                let res=await axios.get("http://localhost:4000/getuser",{headers:{
+                let res=await axios.get("https://roompass-mern-project-server-by-mohit.onrender.com/getuser",{headers:{
                 "x-token":usertoken
             }})
             await dispatch(setuserdata(res.data.user));
 
-            let res_2=await axios.get("http://localhost:4000/getorganiastions",{headers:{
+            let res_2=await axios.get("https://roompass-mern-project-server-by-mohit.onrender.com/getorganiastions",{headers:{
                 "x-token":usertoken
             }})
 
