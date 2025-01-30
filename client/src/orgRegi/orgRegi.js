@@ -29,7 +29,7 @@ function OrgRegi(){
         
         //organisationname,email,password,confirmpassword,address,mobile,noofbeds,noofrooms,image
 
-        let res= await axios.post("http://localhost:4000/organisationregister",{organisationname,email,password,
+        let res= await axios.post("https://roompass-mern-project-server-by-mohit.onrender.com/organisationregister",{organisationname,email,password,
         confirmpassword,address,mobile,noofbeds,noofrooms,image});
 
          await alert(res.data);
