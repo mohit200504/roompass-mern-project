@@ -29,7 +29,7 @@ function Orglogin(){
 
    async function orgsignin(){
     
-       let res=await axios.post("http://localhost:4000/organisationlogin",{email,password});
+       let res=await axios.post("https://roompass-mern-project-server-by-mohit.onrender.com/organisationlogin",{email,password});
 
        await dispatch(setorgjwt(res.data.token));
 
