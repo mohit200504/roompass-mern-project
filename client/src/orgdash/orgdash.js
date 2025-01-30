@@ -35,7 +35,7 @@ function Orgdash(){
 
         if(orgtoken){
 
-            let res=await axios.get("http://localhost:4000/getorganisation",{
+            let res=await axios.get("https://roompass-mern-project-server-by-mohit.onrender.com/getorganisation",{
                 headers:{
                     "x-token":orgtoken
                 }
