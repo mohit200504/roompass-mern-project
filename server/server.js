@@ -19,7 +19,9 @@ app.use(express.json());
 app.use(cors({origin:"*"}));
 
 
-mongoose.connect(MONGO_URI)
+mongoose.connect(MONGO_URI,{
+     ssl: true,
+})
 .then(()=>{
     console.log("DB connect");
 
