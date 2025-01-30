@@ -22,7 +22,7 @@ useEffect(()=>{
 
  async function getgatepass(){
     if(orgtoken){
-        let res=await axios.get("http://localhost:4000/getgatepassfororganisation",{headers:{
+        let res=await axios.get("https://roompass-mern-project-server-by-mohit.onrender.com/getgatepassfororganisation",{headers:{
         "x-token":orgtoken
     }})
 
@@ -44,7 +44,7 @@ async function accept(_id){
     //console.log(id)
     //console.log(orgtoken)
      
-    let res=await axios.post("http://localhost:4000/permissionAccept",{_id},{
+    let res=await axios.post("https://roompass-mern-project-server-by-mohit.onrender.com/permissionAccept",{_id},{
         headers:{
             "x-token":orgtoken
         }
@@ -60,7 +60,7 @@ async function declain(_id){
      //console.log(id)
     //console.log(orgtoken)
      
-    let res=await axios.post("http://localhost:4000/permissiondeclain",{_id},{
+    let res=await axios.post("https://roompass-mern-project-server-by-mohit.onrender.com/permissiondeclain",{_id},{
         headers:{
             "x-token":orgtoken
         }
