@@ -4,11 +4,14 @@ const { default: mongoose } = require("mongoose");
 const userSchema =require("./userschema.js");
 const usermiddleware=require("./usermiddleware.js");
 const cors=require("cors");
-
+require('dotenv').config(); 
 const jwt =require("jsonwebtoken");
 const organisationschema = require("./organisationschema.js");
 const orgamiddleware=require("./organisationmiddleware.js");
 const gatepassschema = require("./gatepass.js");
+
+const MONGO_URI = process.env.MONGO_URI;
+
 
 const app=express();
 
@@ -16,7 +19,7 @@ app.use(express.json());
 app.use(cors({origin:"*"}));
 
 
-mongoose.connect("mongodb+srv://2203031240839:mohithdb@cluster0.ta3ge.mongodb.net/Auth")
+mongoose.connect(MONGO_URI)
 .then(()=>{
     console.log("DB connect");
 
