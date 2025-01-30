@@ -19,7 +19,7 @@ import Gatepassorg from './orgagtepass/orggate';
    function App(){
 
     return (
-      <Router >
+      <Router  basename="/roompass-mern-project">
         <Routes>
           <Route path="/userregister" element={<Userregi/>}/>
           <Route path="/userlogin" element={<Userlogin/>}/>
