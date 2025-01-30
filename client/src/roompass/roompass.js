@@ -26,7 +26,7 @@ return s.usersdata;
         let bedid=user.bedid;
         let username=user.name;
 console.log(roomid,orgid,bedid,username)
-        let res=await axios.post('http://localhost:4000/cancleroom',{roomid,orgid,bedid,username},{headers:{
+        let res=await axios.post('https://roompass-mern-project-server-by-mohit.onrender.com/cancleroom',{roomid,orgid,bedid,username},{headers:{
             "x-token":usertoken
         }});
 
