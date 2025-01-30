@@ -27,6 +27,10 @@ mongoose.connect(MONGO_URI,{
 
 })
 
+app.get("/backend",(req,res)=>{
+    res.send("welcome to mohith backend server"); 
+})
+
 
 app.post("/userregister",async(req,res)=>{
 
