@@ -20,7 +20,7 @@ let [mobile,setmobile]=useState("");
 async function signup(){
     //console.log(name,email,password,confirmpassword,address,mobile)
 
-    axios.post("http://localhost:4000/userregister",{name,email,password,confirmpassword,address,mobile,image})
+    axios.post("https://roompass-mern-project-server-by-mohit.onrender.com/userregister",{name,email,password,confirmpassword,address,mobile,image})
     .then(async(res)=>{
         
         await alert(res.data);
